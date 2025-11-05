@@ -1,0 +1,33 @@
+name: Trigger Docs Build
+
+on:
+  push:
+    branches:
+      - main
+  release:
+    types: [published]
+
+jobs:
+  trigger-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Determine source ref
+        id: ref
+        run: |
+          if [[ "${{ github.event_name }}" == "push" ]]; then
+            echo "ref=main" >> $GITHUB_OUTPUT
+          else
+            echo "ref=${{ github.event.release.tag_name }}" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Trigger docs repository workflow
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          repository: cloudnative-pg/docs
+          event-type: update-docs
+          client-payload: |
+            {
+              "source_ref": "${{ steps.ref.outputs.ref }}",
+              "source_repo": "https://github.com/cloudnative-pg/cloudnative-pg.git"
+            }
