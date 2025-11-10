@@ -1,6 +1,5 @@
 ---
-id: recovery
-sidebar_position: 21
+id: recoverysidebar_position: 20
 title: Recovery
 ---
 

@@ -1,6 +1,5 @@
 ---
-id: cluster_conf
-sidebar_position: 28
+id: cluster_confsidebar_position: 27
 title: Instance Pod Configuration
 ---
 

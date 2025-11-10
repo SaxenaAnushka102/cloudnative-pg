@@ -1,6 +1,5 @@
 ---
-id: declarative_database_management
-sidebar_position: 25
+id: declarative_database_managementsidebar_position: 24
 title: PostgreSQL Database Management
 ---
 

@@ -1,6 +1,5 @@
 ---
-id: cloudnative-pg.v1
-sidebar_position: 56
+id: cloudnative-pg.v1sidebar_position: 55
 title: API Reference
 ---
 

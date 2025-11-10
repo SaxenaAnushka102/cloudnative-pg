@@ -1,6 +1,5 @@
 ---
-id: resource_management
-sidebar_position: 14
+id: resource_managementsidebar_position: 13
 title: Resource Management
 ---
 

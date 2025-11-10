@@ -1,6 +1,5 @@
 ---
-id: scheduling
-sidebar_position: 13
+id: schedulingsidebar_position: 12
 title: Scheduling
 ---
 

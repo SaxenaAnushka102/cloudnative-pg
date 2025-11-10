@@ -1,6 +1,5 @@
 ---
-id: monitoring
-sidebar_position: 31
+id: monitoringsidebar_position: 30
 title: Monitoring
 ---
 

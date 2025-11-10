@@ -1,6 +1,5 @@
 ---
-id: security
-sidebar_position: 11
+id: securitysidebar_position: 10
 title: Security
 ---
 

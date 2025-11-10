@@ -1,6 +1,5 @@
 ---
-id: postgis
-sidebar_position: 45
+id: postgissidebar_position: 44
 title: PostGIS
 ---
 

@@ -1,6 +1,5 @@
 ---
-id: failure_modes
-sidebar_position: 15
+id: failure_modessidebar_position: 14
 title: Failure Modes
 ---
 

@@ -1,6 +1,5 @@
 ---
-id: connection_pooling
-sidebar_position: 36
+id: connection_poolingsidebar_position: 35
 title: Connection Pooling
 ---
 

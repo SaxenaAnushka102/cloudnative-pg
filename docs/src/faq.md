@@ -1,6 +1,5 @@
 ---
-id: faq
-sidebar_position: 55
+id: faqsidebar_position: 54
 title: Frequently Asked Questions (FAQ)
 ---
 

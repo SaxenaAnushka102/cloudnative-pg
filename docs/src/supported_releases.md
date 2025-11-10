@@ -1,6 +1,5 @@
 ---
-id: supported_releases
-sidebar_position: 57
+id: supported_releasessidebar_position: 56
 title: Supported Releases
 ---
 

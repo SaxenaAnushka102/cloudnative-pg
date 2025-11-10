@@ -1,6 +1,5 @@
 ---
-id: imagevolume_extensions
-sidebar_position: 48
+id: imagevolume_extensionssidebar_position: 47
 title: Image Volume Extensions
 ---
 

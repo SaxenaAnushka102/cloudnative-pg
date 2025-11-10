@@ -1,6 +1,5 @@
 ---
-id: fencing
-sidebar_position: 43
+id: fencingsidebar_position: 42
 title: Fencing
 ---
 

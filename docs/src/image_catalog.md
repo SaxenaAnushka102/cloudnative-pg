@@ -1,6 +1,5 @@
 ---
-id: image_catalog
-sidebar_position: 8
+id: image_catalogsidebar_position: 7
 title: Image Catalog
 ---
 

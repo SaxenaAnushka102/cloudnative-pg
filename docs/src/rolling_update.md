@@ -1,6 +1,5 @@
 ---
-id: rolling_update
-sidebar_position: 16
+id: rolling_updatesidebar_position: 15
 title: Rolling Updates
 ---
 

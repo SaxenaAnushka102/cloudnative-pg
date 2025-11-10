@@ -1,6 +1,5 @@
 ---
-id: logging
-sidebar_position: 32
+id: loggingsidebar_position: 31
 title: Logging
 ---
 

@@ -1,6 +1,5 @@
 ---
-id: kubectl-plugin
-sidebar_position: 40
+id: kubectl-pluginsidebar_position: 39
 title: Kubectl Plugin
 ---
 

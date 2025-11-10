@@ -1,6 +1,5 @@
 ---
-id: controller
-sidebar_position: 51
+id: controllersidebar_position: 50
 title: Custom Pod Controller
 ---
 

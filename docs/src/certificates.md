@@ -1,6 +1,5 @@
 ---
-id: certificates
-sidebar_position: 33
+id: certificatessidebar_position: 32
 title: Certificates
 ---
 

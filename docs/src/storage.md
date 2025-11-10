@@ -1,6 +1,5 @@
 ---
-id: storage
-sidebar_position: 29
+id: storagesidebar_position: 28
 title: Storage
 ---
 

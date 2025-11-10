@@ -1,6 +1,5 @@
 ---
-id: cnpg_i
-sidebar_position: 49
+id: cnpg_isidebar_position: 48
 title: CNPG-I
 ---
 

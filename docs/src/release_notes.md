@@ -1,6 +1,5 @@
 ---
-id: release_notes
-sidebar_position: 59
+id: release_notessidebar_position: 58
 title: Release Notes
 ---
 

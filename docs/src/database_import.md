@@ -1,6 +1,5 @@
 ---
-id: database_import
-sidebar_position: 10
+id: database_importsidebar_position: 9
 title: Importing Postgres databases
 ---
 

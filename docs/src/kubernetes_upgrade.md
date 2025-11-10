@@ -1,6 +1,5 @@
 ---
-id: kubernetes_upgrade
-sidebar_position: 38
+id: kubernetes_upgradesidebar_position: 37
 title: Kubernetes Upgrade and Maintenance
 ---
 

@@ -1,6 +1,5 @@
 ---
-id: tablespaces
-sidebar_position: 26
+id: tablespacessidebar_position: 25
 title: Tablespaces
 ---
 

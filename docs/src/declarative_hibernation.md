@@ -1,6 +1,5 @@
 ---
-id: declarative_hibernation
-sidebar_position: 44
+id: declarative_hibernationsidebar_position: 43
 title: Declarative Hibernation
 ---
 

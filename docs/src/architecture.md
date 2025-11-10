@@ -1,6 +1,5 @@
 ---
-id: architecture
-sidebar_position: 5
+id: architecturesidebar_position: 4
 title: Architecture
 ---
 

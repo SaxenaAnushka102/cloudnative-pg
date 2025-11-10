@@ -1,6 +1,5 @@
 ---
-id: before_you_start
-sidebar_position: 3
+id: before_you_startsidebar_position: 2
 title: Before You Start
 ---
 

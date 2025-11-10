@@ -1,6 +1,5 @@
 ---
-id: quickstart
-sidebar_position: 7
+id: quickstartsidebar_position: 6
 title: Quickstart
 ---
 
