@@ -1327,9 +1327,9 @@ jobs:
         uses: nick-fields/retry@ce71cc2ab81d554ebbe88c79ab5975992d79ba08 # v3
         env:
           # renovate: datasource=github-releases depName=vmware-tanzu/velero
-          VELERO_VERSION: "v1.17.0"
+          VELERO_VERSION: "v1.17.1"
           # renovate: datasource=github-releases depName=vmware-tanzu/velero-plugin-for-aws
-          VELERO_AWS_PLUGIN_VERSION: "v1.13.0"
+          VELERO_AWS_PLUGIN_VERSION: "v1.13.1"
         with:
           timeout_minutes: 10
           max_attempts: 3
@@ -2174,7 +2174,7 @@ jobs:
 
       - name: Compute the E2E test summary
         id: generate-summary
-        uses: cloudnative-pg/ciclops@f5a7b357a09f09052ec0358ac49e020f151f1653 # v1.3.1
+        uses: cloudnative-pg/ciclops@fc1c72c2eb99e10aa437f14cd8563686b4b6e3b1 # v1.3.2
         with:
           artifact_directory: test-artifacts/data
 
