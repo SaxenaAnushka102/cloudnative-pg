@@ -1,0 +1,34 @@
+name: Manual Trigger for Docs Sync
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Simulated Release Tag (e.g., 1.30.0)'
+        required: true
+        default: '1.30.0'
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    
+    permissions: {}
+
+    steps:
+      - name: Extract Clean Version
+        id: version
+        # Cleans the input to remove any potential 'v' prefix (e.g., v1.30.0 -> 1.30.0)
+        run: echo "CLEAN_VERSION=$(echo ${{ github.event.inputs.version }} | sed 's/^v//')" >> $GITHUB_OUTPUT
+
+      - name: Dispatch Docs Repository Workflow
+        uses: peter-evans/repository-dispatch@v4
+        with:
+          repository: SaxenaAnushka102/docs
+          
+          # This is the secret PAT you created and stored in the CNPG fork's settings
+          token: ${{ secrets.DOCS_SYNC_PAT }} 
+          
+          # This event type MUST match the 'types' array in the destination's sync-docs.yml
+          event-type: new_release_sync
+          
+          client-payload: '{"tag": "${{ steps.version.outputs.CLEAN_VERSION }}"}'
