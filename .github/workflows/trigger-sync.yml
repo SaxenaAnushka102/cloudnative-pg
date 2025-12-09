@@ -31,4 +31,4 @@ jobs:
           # This event type MUST match the 'types' array in the destination's sync-docs.yml
           event-type: cnpg-docs-release
           
-          client-payload: '{"version": "${{ steps.version.outputs.CLEAN_VERSION }}"}'
+          client-payload: '{"tag": "${{ steps.version.outputs.CLEAN_VERSION }}"}'
