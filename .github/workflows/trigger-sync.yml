@@ -29,6 +29,6 @@ jobs:
           token: ${{ secrets.DOCS_SYNC_PAT }} 
           
           # This event type MUST match the 'types' array in the destination's sync-docs.yml
-          event-type: new_release_sync
+          event-type: cnpg-docs-release
           
           client-payload: '{"tag": "${{ steps.version.outputs.CLEAN_VERSION }}"}'
